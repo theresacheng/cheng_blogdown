@@ -13,6 +13,7 @@ output:
 ---
 
 ```{r xaringan-themer, include = FALSE}
+#install.packages("xaringanthemer")
 library(xaringanthemer)
 solarized_light(
   header_font_google = google_font("Josefin Sans"),
@@ -93,17 +94,18 @@ How well can we predict ACE scores from CTQ scores?
 ---
 
 class: middle, center
+background-color: white
 
 # Dynamic visualization
 
 ### Check out the [CTQ to ACES Shiny App](https://theresacheng.shinyapps.io/ctq_to_aces_shiny/)
 
 ---
+background-color: white
 
-class: inverse
 # A word on process
 
-![](/Users/theresacheng/Desktop/graph_3_before_after.jpg) 
+![](graph_3_before_after.jpg) 
 
 ---
 
